@@ -1,0 +1,11 @@
+# The CUDA-specific PyTorch wheel should be installed separately according to
+# the target server's driver and CUDA compatibility.
+torch>=2.9,<3
+torchvision>=0.24,<1
+diffusers>=0.41
+transformers>=4.57
+peft>=0.21
+accelerate>=1.15
+safetensors>=0.5
+Pillow>=10
+sentencepiece>=0.2

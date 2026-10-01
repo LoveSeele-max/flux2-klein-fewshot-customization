@@ -1,0 +1,9 @@
+# Copy this file to a private shell configuration or export the variables manually.
+# Do not commit real server paths, tokens, or private keys.
+
+export MODEL_DIR=/path/to/FLUX.2-klein-base-4B
+export DIFFUSERS_DIR=/path/to/diffusers
+export HF_HUB_CACHE=/path/to/huggingface/cache
+export DATA_DIR=/path/to/private/train_cropped_candidate
+export OUTPUT_DIR=/path/to/private/runs/figurine_lora
+export GPU_ID=0
