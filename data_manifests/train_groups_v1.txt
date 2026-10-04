@@ -1,0 +1,30 @@
+# Fixed training subsets for the data-size experiment.
+# Source: crop_diagnostic_v1/train_cropped_candidate
+# Chosen for view and background coverage, before comparing generated results.
+# Each larger group includes every image in the smaller group.
+
+train_4
+IMG_20260930_000747.jpg  side, desk
+IMG_20260930_000821.jpg  front, white tabletop
+IMG_20260930_000926.jpg  back, fabric background
+IMG_20260930_000947.jpg  opposite side, white tabletop
+
+train_8 adds
+IMG_20260930_000753.jpg  back, desk
+IMG_20260930_000757.jpg  front oblique, desk
+IMG_20260930_000850.jpg  front oblique, fabric background
+IMG_20260930_000901.jpg  elevated front, fabric background
+
+train_16 adds
+IMG_20260930_000809.jpg
+IMG_20260930_000824.jpg
+IMG_20260930_000830.jpg
+IMG_20260930_000836.jpg
+IMG_20260930_000843.jpg
+IMG_20260930_000905.jpg
+IMG_20260930_000937.jpg
+IMG_20260930_000942.jpg
+
+# The private image-only copies are in train_subsets_v1/train_4,
+# train_subsets_v1/train_8, and train_subsets_v1/train_16.
+# Reference photos in refer/ and refer_cropped_v1/ are never training data.

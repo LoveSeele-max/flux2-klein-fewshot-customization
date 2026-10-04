@@ -31,6 +31,9 @@ huggingface/
 # Private datasets and generated media
 train/
 holdout/
+refer/
+refer_cropped_v1/
+train_subsets_v1/
 data/
 comparison/
 comparison_cropped_v1/
@@ -39,6 +42,7 @@ scale_test/
 scene_validation/
 trigger_test/
 validate_step240/
+rank_pair_comparison/
 *.png
 *.jpg
 *.jpeg
@@ -60,3 +64,4 @@ Thumbs.db
 
 # Local notes contain private paths and experiment details
 doc_record/
+reports/project_closeout_20261004.md
